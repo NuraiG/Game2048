@@ -1,0 +1,46 @@
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    width: 408px;
+    height: 408px;
+    margin: 0 auto;
+}
+  .grid >.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid  rgb(134, 98, 98);
+    font-weight: bold;
+    font-size: 3.5em;
+    font-style: italic;
+    text-align: center;
+}
+#state{
+  font-size:  3em;
+  font-weight: bold;
+  color:royalblue;
+  text-align: center;
+}
+#game {
+  padding: 2em;
+  margin: 0 30em;
+  border: 2px solid rosybrown;
+  background-color: rgb(235, 227, 222);
+}
+#counter{
+  border: 2px solid rgb(134, 98, 98);
+  margin:1em;
+  display: inline;
+  color:royalblue;
+  font-weight: bold;
+  padding: 1em;
+}
+h1{
+  color: rgb(119, 78, 78);
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+  font-size: 100px;
+}
+body{
+  background-color: darkgrey;
+}
